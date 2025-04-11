@@ -20,8 +20,8 @@
     default-branch: main
     gh_check:
       jobs:
-        - noop
         - test-job
+        - noop
     gh_gate:
       jobs:
         - noop
