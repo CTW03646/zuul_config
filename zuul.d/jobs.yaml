@@ -21,3 +21,10 @@
       nodes:
         - name: ubuntu-focal
           label: ubuntu-focal
+- job:
+    name: test-job
+    parent: base
+    run: playbooks/test-playbook.yaml
+    secrets:
+      - secret: test_secret
+        name: test_secret

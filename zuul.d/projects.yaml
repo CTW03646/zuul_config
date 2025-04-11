@@ -21,6 +21,7 @@
     gh_check:
       jobs:
         - noop
+        - test-job
     gh_gate:
       jobs:
         - noop
