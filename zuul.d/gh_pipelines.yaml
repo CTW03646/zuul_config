@@ -87,7 +87,7 @@
         check: 'failure'
         comment: false
     dequeue:
-      tibeerorgzuulapp:
+      githubzuulapp:
         check: cancelled
         comment: false
     window-floor: 20
