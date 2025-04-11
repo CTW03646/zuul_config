@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+  - name: Check secret
+    debug:
+      msg: "{{ test_secret.my_password }}"
