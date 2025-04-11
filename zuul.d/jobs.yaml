@@ -19,8 +19,8 @@
     timeout: 1800
     nodeset:
       nodes:
-        - name: ubuntu-focal
-          label: ubuntu-focal
+        - name: controller
+          label: ubuntu-jammy
 - job:
     name: test-job
     parent: base
