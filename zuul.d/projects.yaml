@@ -16,7 +16,7 @@
     default-branch: master
 
 - project:
-    name: tibeerorg/zuul_config
+    name: CTW03646/zuul_config
     default-branch: main
     gh_check:
       jobs:
